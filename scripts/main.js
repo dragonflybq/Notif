@@ -5,7 +5,7 @@ function id(element) {
 }
              
 function onDeviceReady() {
-    alert("i'm here");
+   // alert("i'm here");
 	navigator.splashscreen.hide();
 	notificationApp = new notificationApp();
 	notificationApp.run();

@@ -25,4 +25,5 @@
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
 </widget>
