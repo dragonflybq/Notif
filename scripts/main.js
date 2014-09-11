@@ -5,9 +5,12 @@ function id(element) {
 }
              
 function onDeviceReady() {
-    navigator.splashscreen.hide();
+    alert("i'm here");
+	navigator.splashscreen.hide();
 	notificationApp = new notificationApp();
 	notificationApp.run();
+	window.plugin.notification.local.add({ message: 'Great app!' });
+	
 }
 
 function notificationApp() {
